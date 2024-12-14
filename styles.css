@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 10px;
+    display: block;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap : 3px
+}
+.logo img{
+    width: 45px;
+}
+
+.logo span {
+    color: #ffffff;
+    margin: 6px;
+    
+    top: 13px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin : 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+
+}
+
+nav ul li a:hover {
+    background-color: #615f5f;
+    border-radius: 5px;
+    color: #ff4444;
+}
+
+.game_page {
+    background-image: url('media/waiting.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
